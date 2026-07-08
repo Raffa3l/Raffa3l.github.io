@@ -18,4 +18,4 @@ Works in these repositories are published in either English or German.
 
 ## Contact
 
-hello [aet] raffa3l.com · [github.com/raffa3l](https://github.com/raffa3l) · [raffa3l.com](https://raffa3l.com)
+hello [aet] raffa3l.com · [github.com/raffa3l](https://github.com/raffa3l)
