@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>git.logicc.ch</title>
+<meta name="description" content="Verzeichnis der unter git.logicc.ch veröffentlichten Repositorys.">
+<style>
+  :root{
+    --bg: #0b0e0d;
+    --fg: #d7ddd9;
+    --muted: #7c8a83;
+    --accent: #5fbf8f;
+    --border: #1e2622;
+  }
+  *{ box-sizing: border-box; }
+  html{ background: var(--bg); }
+  body{
+    margin: 0;
+    padding: 4rem 1.5rem 6rem;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  main{ max-width: 720px; margin: 0 auto; }
+  .prompt{ color: var(--accent); }
+  h1{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 0 2.5rem;
+    color: var(--muted);
+  }
+  h1 span{ color: var(--fg); }
+  .caret{
+    display: inline-block;
+    width: 0.55em;
+    background: var(--accent);
+    margin-left: 2px;
+    animation: blink 1.1s steps(1) infinite;
+  }
+  @media (prefers-reduced-motion: reduce){ .caret{ animation: none; opacity: 1; } }
+  @keyframes blink{ 50%{ opacity: 0; } }
+  table{ width: 100%; border-collapse: collapse; }
+  caption{ text-align: left; color: var(--muted); font-weight: 400; margin-bottom: 0.75rem; }
+  th{
+    text-align: left;
+    font-weight: 400;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+    padding: 0.4rem 0.75rem 0.4rem 0;
+  }
+  td{
+    padding: 0.55rem 0.75rem 0.55rem 0;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  td.path a{
+    color: var(--accent);
+    text-decoration: none;
+  }
+  td.path a:hover, td.path a:focus-visible{ text-decoration: underline; }
+  td.desc{ color: var(--fg); }
+  td.type{ color: var(--muted); white-space: nowrap; }
+  a:focus-visible{ outline: 2px solid var(--accent); outline-offset: 2px; }
+  footer{
+    margin-top: 3rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  footer a{ color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1><span class="prompt">raffa3l@git</span>:~$ ls -la<span class="caret" aria-hidden="true"></span></h1>
+
+  <table>
+    <caption>Repositorys unter git.logicc.ch</caption>
+    <thead>
+      <tr>
+        <th scope="col">Pfad</th>
+        <th scope="col">Beschreibung</th>
+        <th scope="col">Typ</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="path"><a href="/SIA-180-thermal-comfort/">/SIA-180-thermal-comfort</a></td>
+        <td class="desc">Interaktive Visualisierung des thermischen Raumkomforts nach SIA&nbsp;180:2014</td>
+        <td class="type">project site</td>
+      </tr>
+      <tr>
+        <td class="path"><a href="/SIA-4028-Klimadaten-Viewer/">/SIA-4028-Klimadaten-Viewer</a></td>
+        <td class="desc">Visualisierung stündlicher SIA&nbsp;4028:2026-Klimadaten von MeteoSchweiz für bauphysikalische, energetische und gebäudetechnische Berechnungen</td>
+        <td class="type">project site</td>
+      </tr>
+      <tr>
+        <td class="path"><a href="/hx-diagramm/">/hx-diagramm</a></td>
+        <td class="desc">Interaktive Web-App zur Darstellung eines Mollier h,x-Diagramms für feuchte Luft, vollständig clientseitig</td>
+        <td class="type">project site</td>
+      </tr>
+      <tr>
+        <td class="path"><a href="/Winterstromluecke-2050/">/Winterstromluecke-2050</a></td>
+        <td class="desc">Interaktive Parameteranalyse der Studie Kelevitz et al., 2025 zur Winterstromlücke</td>
+        <td class="type">project site</td>
+      </tr>
+      <tr>
+        <td class="path"><a href="/todo.txt-App/">/todo.txt-App</a></td>
+        <td class="desc">Vollständig clientseitige Web-App zur Aufgabenverwaltung im todo.txt-Format</td>
+        <td class="type">project site</td>
+      </tr>
+      <tr>
+        <td class="path"><a href="https://github.com/Raffa3l/Admin">Admin</a></td>
+        <td class="desc">Administrative und organisatorische Angelegenheiten</td>
+        <td class="type">repository</td>
+      </tr>
+      <!-- Weitere Repositorys hier ergänzen: ein <tr> pro Projekt, Pfad entspricht dem Repository-Namen -->
+    </tbody>
+  </table>
+
+  <footer>
+    <p>Quellcode: <a href="https://github.com/Raffa3l">github.com/Raffa3l</a> · Hauptseite: <a href="https://raffa3l.com">raffa3l.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
