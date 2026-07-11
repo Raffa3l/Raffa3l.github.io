@@ -18,5 +18,5 @@ Works in these repositories are published in either English or German.
 
 ## Contact
 
-- hello [aet] raffa3l.com
+- hello [aet] raffa3l [dot] com
 - [github.com/raffa3l](https://github.com/raffa3l)
