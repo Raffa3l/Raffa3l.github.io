@@ -1,22 +1,41 @@
-# Raffa3l Admin Page
+# git.logicc.ch
+
+Source repository for the GitHub Pages site available at:
+
+**[git.logicc.ch](https://git.logicc.ch)**
+
+This repository provides the landing page and domain configuration for the public GitHub projects and applications hosted under the `logicc.ch` infrastructure.
+
+## Structure
+
+```text
+.
+├── index.html   # GitHub Pages landing page
+├── CNAME        # Custom domain configuration
+└── README.md    # Repository documentation
+```
+
+## GitHub Pages
+
+The site is published through GitHub Pages.
+
+The custom domain is defined in `CNAME`:
+
+```text
+git.logicc.ch
+```
+
+## Purpose
+
+`git.logicc.ch` acts as an entry point for public projects, experiments and web applications maintained through GitHub.
+
+Individual projects are maintained in their respective repositories.
+
+## Related
+
+- [GitHub profile](https://github.com/Raffa3l)
+- [logicc.ch](https://logicc.ch)
 
 ## License
 
-Each repository contains a `LICENSE` file in its root directory. The terms stated therein apply exclusively to that repository.
-
-## Contributing
-
-Issues and pull requests are welcome. Please open an issue first to discuss proposed changes.
-
-## Language
-
-Works in these repositories are published in either English or German.
-
-## System Infrastructure
-- Primary Core [raffa3l.com](https://raffa3l.com)
-- Exec & Research Layer [logicc.ch](https://logicc.ch)
-
-## Contact
-
-- hello [aet] raffa3l [dot] com
-- [github.com/raffa3l](https://github.com/raffa3l)
+Licensing is defined individually for each repository. Refer to the corresponding `LICENSE` file where applicable.
