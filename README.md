@@ -1,8 +1,8 @@
-# git.logicc.ch
+# logicc.ch
 
 Source repository for the GitHub Pages site available at:
 
-**[git.logicc.ch](https://git.logicc.ch)**
+**[logicc.ch](https://logicc.ch)**
 
 This repository provides the landing page and domain configuration for the public GitHub projects and applications hosted under the `logicc.ch` infrastructure.
 
@@ -22,12 +22,12 @@ The site is published through GitHub Pages.
 The custom domain is defined in `CNAME`:
 
 ```text
-git.logicc.ch
+logicc.ch
 ```
 
 ## Purpose
 
-`git.logicc.ch` acts as an entry point for public projects, experiments and web applications maintained through GitHub.
+`logicc.ch` acts as an entry point for public projects, experiments and web applications maintained through GitHub.
 
 Individual projects are maintained in their respective repositories.
 
